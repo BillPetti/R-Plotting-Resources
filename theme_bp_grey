@@ -6,7 +6,6 @@ theme_bp_grey <- function(base_size = 12, base_family = "Helvetica") {
       legend.title = element_text(face = "bold", size = 14),
       legend.text = element_text(face = "bold", size = 14),
       plot.title = element_text(face = "bold", size = 28, hjust=-.08,vjust=2),
-      plot.subtitle = element_text(size = 14, hjust=-.28,vjust=2),
       plot.background = element_rect(fill="#F0F0F0"),
       panel.grid.major = element_line(colour="#FFFFFF",size=.75)
     )
