@@ -1,0 +1,13 @@
+theme_gallup <- function(base_size = 12, base_family = "Helvetica") {
+  theme_minimal(base_size = base_size, base_family = base_family) %+replace%
+    theme(
+    axis.text = element_text(face = "bold", size = 12, color = "black"),
+    axis.title = element_text(face = "bold", size = 15, color = "black"),
+    legend.title = element_text(face = "bold", size = 14, color = "black"),
+    legend.text = element_text(face = "bold", size = 14, color = "black"),
+    plot.title = element_text(face = "bold", size = 28, hjust=-.08,vjust=2),
+    panel.background = element_rect(fill = "white"), 
+    axis.ticks = element_blank(),
+    panel.grid.major = element_blank()
+    )
+}
