@@ -8,7 +8,7 @@ theme_bp_grey <- function(base_size = 12, base_family = "Helvetica") {
       plot.title = element_text(margin = margin(b=0), face = "bold", size = 28),
       plot.subtitle = element_text(margin=margin(t=5, b=10), size = 14),
       plot.background = element_rect(fill="#F0F0F0"),
-      panel.background = element_rect(fill="#F0F0F0", color=NA),
+      #panel.background = element_rect(fill="#F0F0F0", color=NA),
       panel.grid.major = element_line(colour="#FFFFFF",size=.75)
     )
 }
